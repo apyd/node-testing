@@ -5,6 +5,7 @@
   "main": "",
   "scripts": {
     "test": "jest",
+    "test:e2e": "jest --testMatch='**/*.e2e.ts'",
     "test:coverage": "jest --coverage"
   },
   "author": "",
