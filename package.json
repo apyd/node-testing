@@ -4,8 +4,8 @@
   "description": "Practical task - node testing",
   "main": "",
   "scripts": {
-    "test": "jest",
-    "test:e2e": "jest --testMatch='**/*.e2e.ts'",
+    "test": "jest --testMatch='**/*.(unit|int).test.ts'",
+    "test:e2e": "jest --testMatch='**/*.e2e.test.ts'",
     "test:coverage": "jest --coverage"
   },
   "author": "",
