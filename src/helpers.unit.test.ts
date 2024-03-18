@@ -46,7 +46,7 @@ describe('shortenPublicHoliday fn', () => {
       countryCode: 'PL',
       fixed: true,
       global: false,
-      countries: ['PL', 'DK'],
+      counties: ['PL', 'DK'],
       launchYear: 1920,
       types: ['Public holiday']
     }
